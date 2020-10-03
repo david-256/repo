@@ -1,7 +1,7 @@
 ﻿#Two machines full creation
 
 #Resource group name
-$ResourceGroup = D-rg
+$ResourceGroup = DRtempResourceGroup
 $Vnet = D-net
 $Location = "EastUS" 
 
