@@ -10,7 +10,7 @@ New-AzKeyVault `
 #Grant permissions through Access Policy
 Set-AzKeyVaultAccessPolicy `
      -VaultName $kv `
-     -ObjectId 6e54a180-997d-455a-9521-cbfa66a9cd83 `
+     -ObjectId #Insert your object ID `
      -PermissionsToSecrets get,set,delete,list `
      -PermissionsToKeys create,import,delete,list `
      -PermissionsToCertificates get, list, delete, create, import, update
